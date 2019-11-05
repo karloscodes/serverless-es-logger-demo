@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "serverless": "^1.56.1",
     "serverless-es-logger": "^0.3.2"
   }
 }
