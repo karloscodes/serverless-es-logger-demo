@@ -1,0 +1,14 @@
+{
+  "name": "aws-es",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "deploy": "npm un --no-save lambda-es-logger && npm pack ../../ && npm i --no-save lambda-es-logger-0.0.1.tgz && sls deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serverless-es-logger": "^0.3.2"
+  }
+}
